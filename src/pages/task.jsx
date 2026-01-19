@@ -3,7 +3,7 @@ import { Plus, Edit2, Trash2, Check, X, Calendar, AlertCircle } from 'lucide-rea
 import { Sidebar } from '../componentes/SideBar';
 
 //variaveis unicas
-const API_URL = 'http://localhost:3000';
+const API_URL = 'https://todolistrafa-git-main-no-geniuss-projects.vercel.app';
 const TOKEN = localStorage.getItem('accessToken');
 const USER = localStorage.getItem('idUser');
 

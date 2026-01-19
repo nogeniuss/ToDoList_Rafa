@@ -17,7 +17,7 @@ const EditUser = () => {
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState({ type: '', text: '' });
 
-  const API_URL = 'http://localhost:3000';
+  const API_URL = 'https://todolistrafa-git-main-no-geniuss-projects.vercel.app';
   const TOKEN = localStorage.getItem('accessToken');
   const USER = localStorage.getItem('idUser');
 
