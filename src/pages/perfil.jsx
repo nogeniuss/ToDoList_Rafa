@@ -17,7 +17,7 @@ const EditUser = () => {
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState({ type: '', text: '' });
 
-  const API_URL = 'https://todolistrafa.vercel.app/';
+  const API_URL = 'https://todolist-backend-w4uu.onrender.com';
   const TOKEN = localStorage.getItem('accessToken');
   const USER = localStorage.getItem('idUser');
 
