@@ -21,7 +21,7 @@ const LoginRegister = () => {
 
     try {
       const endpoint = isLogin ? '/auth/login' : '/auth/register';
-      const response = await fetch(`https://todolistrafa-git-main-no-geniuss-projects.vercel.app${endpoint}`, {
+      const response = await fetch(`https://todolistrafa.vercel.app${endpoint}`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
